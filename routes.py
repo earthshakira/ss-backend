@@ -1,10 +1,10 @@
 from app import api
-from backend.listing import ListingResource
-from backend.cart import CartResource
-from backend.coupon import CouponResource
-from backend.cartUpdater import CartUpdater
-from backend.validate import ValidateEndpoint
-from backend.apply import ApplyEndpoint
+from listing import ListingResource
+from cart import CartResource
+from coupon import CouponResource
+from cartUpdater import CartUpdater
+from validate import ValidateEndpoint
+from apply import ApplyEndpoint
 
 api.add_route('/api/{type}', ListingResource())
 api.add_route('/api/cart/{userId}',CartResource())
