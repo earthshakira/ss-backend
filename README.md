@@ -2,7 +2,7 @@
 
 This API primarily validates and applies a coupon to a cart
 
-[link to live heroku](https://shubham-ss-api.herokuapp.com/api/)
+[link to live heroku](https://shubham-ss-api.herokuapp.com/api/) * Doesn't work any more
 
 ### Routes
 
